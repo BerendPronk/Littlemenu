@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>litlemenu.css</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="littlemenu.css">
+</head>
+<body>
+	<header id="littlemenu">
+		<input id="toggle" type="checkbox">
+		<label for="toggle">►</label>
+		<nav>
+			<ul>
+				<li><a href="#">Menu item 1</a></li>
+				<li><a href="#">Menu item 2</a></li>
+				<li><a href="#">Menu item 3</a></li>
+				<li><a href="#">Menu item 4</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>littlemenu.css, by BerendPronk</h1>
+		<p>This is my first attempt of a CSS-only slide menu. It doesn't always have to be a hamburger menu ;)</p>
+		<p>I've made a <a href="https://github.com/BerendPronk/burger" target="_blank">similar menu</a> before, but that worked with a little bit of JavaScript code. This menu will work with just CSS3 styling.</p>
+		<p>The <a href="littlemenu.css" target="_blank">stylesheet</a> of this menu is just 40 lines of code! It won't take much space on your website.</p>
+		<p>The only thing you need to add to your HTML is the following code:<br>
+			<code>
+				<span class="one">&lt;header id="littlemenu"&gt;</span>
+					<span class="two">&lt;input id="toggle" type="checkbox"&gt;</span>
+					<span class="two">&lt;label for="toggle"&gt;►&lt;/label&gt;</span>
+					<span class="two">&lt;nav&gt;</span>
+						<span class="three">&lt;ul&gt;</span>
+							<span class="four">&lt;li&gt;&lt;a href="#"&gt;{menu-item}&lt;/a&gt;&lt;/li&gt;</span>
+							<span class="four">&lt;li&gt;&lt;a href="#"&gt;{menu-item}&lt;/a&gt;&lt;/li&gt;</span>
+							<span class="four">&lt;li&gt;&lt;a href="#"&gt;{menu-item}&lt;/a&gt;&lt;/li&gt;</span>
+							<span class="four">&lt;li&gt;&lt;a href="#"&gt;{menu-item}&lt;/a&gt;&lt;/li&gt;</span>
+						<span class="three">&lt;/ul&gt;</span>
+					<span class="two">&lt;/nav&gt;</span>
+				<span class="one">&lt;/header&gt;</span>
+			</code>
+			Place it right under your <code>&lt;body&gt;</code> tag.</p>
+		</p>
+	</article>
+</body>
+</html>

@@ -1,0 +1,40 @@
+#littlemenu label {
+	position: absolute;
+	left: 1rem;
+	z-index: 1;
+	font-size: 2em;
+	color: #fff;
+	text-shadow: 0 0 .05em #000;
+	cursor: pointer;
+}
+#littlemenu input[type="checkbox"] {
+	display: none;
+}
+#littlemenu nav {
+	position: absolute;
+	top: 0;
+	left: -11rem;
+	width: 10rem;
+	background-color: #fff;
+	box-shadow: 0 0 .5em rgba(0, 0, 0, .3);
+}
+#littlemenu nav ul {
+	height: 100vh;
+	padding: 2rem 0;
+}
+#littlemenu nav li:hover {
+	background-color: #ededed;
+}
+#littlemenu nav li a {
+	display: block;
+	padding: .5em .75em;
+	text-decoration: none;
+	color: inherit;
+}
+#littlemenu input[type="checkbox"]:checked ~ [for="toggle"] {
+	left: 11rem;
+	transform: rotate(180deg);
+}
+#littlemenu input[type="checkbox"]:checked ~ nav {
+	left: 0;
+}
