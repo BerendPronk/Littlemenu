@@ -3,7 +3,7 @@ A simple hamburger menu that functions on just CSS
 
 -
 
-Just just need to follow two simple steps.
+You just need to follow two simple steps.
 
 1) Download the stylesheet, upload it to your project en link to the stylesheet in the <head> of your document.
 
