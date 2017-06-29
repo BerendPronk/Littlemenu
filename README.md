@@ -1,7 +1,7 @@
 # Littlemenu
 A simple hamburger menu that functions on just CSS
 
--
+---
 
 You just need to follow two simple steps.
 
